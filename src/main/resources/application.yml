@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+doisUrl: https://api.datacite.org/dois?client-id=%s
+providerUrl: https://api.datacite.org/providers?consortium-id=%s&page[number]=%d&page[size]=%d
+clientsUrl: https://api.datacite.org/clients?provider-id=%s&page[number]=%d&page[size]=%d
